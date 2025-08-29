@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HAVENOX – Smart Safety</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Poppins', 'ui-sans-serif', 'system-ui'] },
+          colors: {
+            brand: {
+              light: '#60a5fa',
+              DEFAULT: '#2563eb',
+              dark: '#1e40af',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .glass {
+      backdrop-filter: blur(16px);
+      background: rgba(255,255,255,0.08);
+    }
+    .shadow-pro {
+      box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+    }
+    .fade-up {
+      animation: fadeUp 1s ease-out;
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white font-sans antialiased">
+
+<!-- Header -->
+<header class="fixed top-0 inset-x-0 z-50 glass border-b border-white/10">
+  <div class="mx-auto max-w-7xl px-6 flex h-16 items-center justify-between">
+    <a href="#top" class="flex items-center gap-2 text-xl font-bold">
+      <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-brand text-white shadow-md">⚡</span>
+      HAVENOX
+    </a>
+    <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+      <a href="#problem" class="hover:text-brand-light transition">Problem</a>
+      <a href="#solution" class="hover:text-brand-light transition">Solution</a>
+      <a href="#ages" class="hover:text-brand-light transition">Age Features</a>
+      <a href="#benefits" class="hover:text-brand-light transition">Benefits</a>
+    </nav>
+    <div class="flex items-center gap-3">
+      <a href="C:\Users\The One Piece😜\Desktop\digitopia\sign in .htm" class="hidden sm:inline-flex items-center px-4 py-2 rounded-xl border border-white/20 hover:bg-white/10 text-sm font-semibold">🔑 Sign In</a>
+      <a href="C:\Users\The One Piece😜\Desktop\digitopia\sign up.htm" class="inline-flex items-center px-4 py-2 rounded-xl bg-gradient-to-r from-brand to-brand-dark text-white font-semibold shadow-pro hover:opacity-90">🚀 Join Now</a>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section id="top" class="relative pt-32 pb-20 text-center">
+  <div class="fade-up mx-auto max-w-3xl glass shadow-pro rounded-2xl p-10 border border-white/10">
+    <h1 class="text-5xl sm:text-6xl font-extrabold leading-tight bg-gradient-to-r from-brand-light to-brand bg-clip-text text-transparent">
+      Smart Safety for Every Age
+    </h1>
+    <p class="mt-6 text-lg text-slate-300">
+      Protect your family 🏡 from electrical risks ⚡ with <b>real-time alerts</b>, remote controls 📱, and community support 🤝.
+    </p>
+    <div class="mt-8 flex justify-center gap-4">
+      <a href="#signup" class="px-6 py-3 rounded-xl bg-gradient-to-r from-brand to-brand-dark text-lg font-semibold shadow-pro hover:scale-105 transform transition">🚀 Get Started</a>
+      <a href="#benefits" class="px-6 py-3 rounded-xl border border-white/20 text-lg font-semibold hover:bg-white/10 transition">✨ Explore Features</a>
+    </div>
+  </div>
+</section>
+
+<!-- Problem -->
+<section id="problem" class="py-24">
+  <div class="mx-auto max-w-4xl text-center fade-up glass shadow-pro rounded-2xl p-10 border border-white/10">
+    <h2 class="text-3xl font-bold">⚠️ The Problem</h2>
+    <p class="mt-4 text-slate-300">
+      Every <b>30 seconds</b>, an electrical accident happens. Traditional solutions fail ❌.  
+      Parents 👨‍👩‍👧‍👦 need a smarter, digital-first protection system 💡.
+    </p>
+  </div>
+</section>
+
+<!-- Solution -->
+<section id="solution" class="py-24">
+  <div class="mx-auto max-w-5xl text-center fade-up glass shadow-pro rounded-2xl p-10 border border-white/10">
+    <h2 class="text-3xl font-bold">✅ Our Solution</h2>
+    <p class="mt-4 text-slate-300">
+      HAVENOX is a <b>next-gen platform</b> 🎯 that connects families 👪 and devices 🔌.  
+      It gives <b>age-based protection</b>, instant alerts 🔔, and AI-powered personalization 🤖.  
+    </p>
+  </div>
+</section>
+
+<!-- Video Section -->
+<section id="video" class="py-24">
+  <div class="mx-auto max-w-4xl text-center fade-up glass shadow-pro rounded-2xl p-10 border border-white/10">
+    <h2 class="text-3xl font-bold">🎬 Learn More About HAVENOX</h2>
+    <p class="mt-4 text-slate-300">
+      Watch this video to discover how our app helps keep your family safe and smart.
+    </p>
+    <div class="mt-8 flex justify-center">
+      <video controls class="rounded-2xl shadow-pro" style="width: 100%; max-width: 700px;">
+        <source src="videos/intro.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- Age-Based Levels -->
+<section id="ages" class="py-24">
+  <div class="mx-auto max-w-6xl px-6 fade-up">
+    <h2 class="text-3xl font-bold text-center mb-14">🧒👦👨 Age-Based Protection Levels</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      
+      <!-- Level 1 -->
+      <div class="glass shadow-pro rounded-2xl p-8 text-center border border-white/10">
+        <div class="text-5xl mb-4">🧒</div>
+        <h3 class="text-xl font-bold mb-3">Level 1: Children under 12</h3>
+        <ul class="text-slate-300 text-left list-disc list-inside space-y-2">
+          <li>No device works without parental permission via the app.</li>
+          <li>Customized content with icons & clear colors 🎨.</li>
+          <li><b>Goal:</b> Complete protection & zero direct access.</li>
+        </ul>
+      </div>
+      
+      <!-- Level 2 -->
+      <div class="glass shadow-pro rounded-2xl p-8 text-center border border-white/10">
+        <div class="text-5xl mb-4">👦</div>
+        <h3 class="text-xl font-bold mb-3">Level 2: Teens (12–18)</h3>
+        <ul class="text-slate-300 text-left list-disc list-inside space-y-2">
+          <li>Access only to <b>safe devices</b> (TV, computer).</li>
+          <li>Dangerous devices (heater, stove) auto-blocked 🚫.</li>
+          <li>Unauthorized attempts stopped + parents notified 📲.</li>
+          <li><b>Goal:</b> Training with real-time supervision.</li>
+        </ul>
+      </div>
+      
+      <!-- Level 3 -->
+      <div class="glass shadow-pro rounded-2xl p-8 text-center border border-white/10">
+        <div class="text-5xl mb-4">👨</div>
+        <h3 class="text-xl font-bold mb-3">Level 3: Adults 18+</h3>
+        <ul class="text-slate-300 text-left list-disc list-inside space-y-2">
+          <li>Nearly full device access 🔓.</li>
+          <li>Smart tracking of electricity consumption ⚡.</li>
+          <li>Stay connected with family & community awareness 🌍.</li>
+          <li><b>Goal:</b> Responsible freedom with monitoring.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Benefits -->
+<section id="benefits" class="py-24">
+  <div class="mx-auto max-w-4xl text-center fade-up glass shadow-pro rounded-2xl p-10 border border-white/10">
+    <h2 class="text-3xl font-bold">🎯 Benefits</h2>
+    <p class="mt-4 text-slate-300">
+      ✨ Peace of mind for parents, safer homes 🏡, and empowered families 💪.  
+      HAVENOX reduces risks ⚡ while educating 📚 and supporting everyone 🤝.
+    </p>
+  </div>
+</section>
+
+<!-- Q & A -->
+<section id="qa" class="py-24">
+  <div class="mx-auto max-w-5xl fade-up glass shadow-pro rounded-2xl p-10 border border-white/10">
+    <h2 class="text-3xl font-bold text-center mb-12">❓ Q & A – Common Questions</h2>
+    <div class="space-y-8 text-left">
+
+      <!-- Q1 -->
+      <div>
+        <h3 class="text-xl font-semibold mb-2">1️⃣ How is HAVENOX different from existing parental control apps?</h3>
+        <p class="text-slate-300">🌟 Unlike traditional apps that only limit screen time or internet use, <b>HAVENOX directly controls real electrical devices</b> using microcontrollers and IoT. It combines safety, education, and community awareness in one platform.</p>
+      </div>
+
+      <!-- Q2 -->
+      <div>
+        <h3 class="text-xl font-semibold mb-2">2️⃣ What ensures the safety of children if the system fails or loses internet connection?</h3>
+        <p class="text-slate-300">🔒 Devices are managed by local microcontrollers (Arduino/STM32). Even if the internet is lost, the safety rules remain active, and unauthorized devices stay blocked.</p>
+      </div>
+
+      <!-- Q3 -->
+      <div>
+        <h3 class="text-xl font-semibold mb-2">3️⃣ How do you protect user privacy?</h3>
+        <p class="text-slate-300">🛡️ All data is encrypted and stored in secure cloud servers. Parents have full control over what data is stored or shared.</p>
+      </div>
+
+      <!-- Q4 -->
+      <div>
+        <h3 class="text-xl font-semibold mb-2">4️⃣ Why did you choose three age levels?</h3>
+        <p class="text-slate-300">👶➡️👦➡️👨 Because safety needs change as children grow. Under 12 requires full restriction, teenagers need limited but monitored freedom, and 18+ requires responsibility with awareness.</p>
+      </div>
+
+      <!-- Q5 -->
+      <div>
+        <h3 class="text-xl font-semibold mb-2">5️⃣ What is the role of civil organizations in your platform?</h3>
+        <p class="text-slate-300">🌍 They provide safety reports, accident statistics, and awareness campaigns. Parents can receive local alerts about nearby risks, making HAVENOX not just a family tool, but a <b>community protection system</b>.</p>
+      </div>
+
+      <!-- Q6 -->
+      <div>
+        <h3 class="text-xl font-semibold mb-2">6️⃣ Is this system affordable for families?</h3>
+        <p class="text-slate-300">💰 Yes. The hardware is based on low-cost microcontrollers and sensors, while the software is free or subscription-based at a low cost, making it accessible to most households.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Download App -->
+<section id="download" class="py-24">
+  <div class="mx-auto max-w-4xl text-center fade-up glass shadow-pro rounded-2xl p-10 border border-white/10">
+    <h2 class="text-3xl font-bold">📲 Download HAVENOX App</h2>
+    <p class="mt-4 text-slate-300">
+      Get the power of smart safety right in your hands! 🚀  
+      Download the HAVENOX mobile app and start protecting your family today.
+    </p>
+    <div class="mt-8 flex justify-center gap-6 flex-wrap">
+      <!-- Android -->
+      <a href="#" class="flex items-center gap-3 px-6 py-3 rounded-xl bg-gradient-to-r from-green-500 to-green-600 text-white font-semibold shadow-pro hover:scale-105 transform transition">
+        <span class="text-2xl">🤖</span> <span>Get it on Google Play</span>
+      </a>
+      <!-- iOS -->
+      <a href="#" class="flex items-center gap-3 px-6 py-3 rounded-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold shadow-pro hover:scale-105 transform transition">
+        <span class="text-2xl">🍏</span> <span>Download on App Store</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Signup -->
+<section id="signup" class="py-24 text-center">
+  <div class="fade-up glass shadow-pro rounded-2xl mx-auto max-w-2xl p-10 border border-white/10">
+    <h2 class="text-3xl font-bold">🚀 Join Smart Safety Today</h2>
+    <p class="mt-4 text-slate-300">📝 Sign up now and start protecting your family immediately.</p>
+    <div class="mt-6 flex justify-center gap-4">
+      <a href="C:\Users\The One Piece😜\Desktop\digitopia\sign up.htm" class="px-6 py-3 rounded-xl bg-gradient-to-r from-brand to-brand-dark text-lg font-semibold shadow-pro hover:scale-105 transform transition">🚀 Join Now</a>
+      <a href="C:\Users\The One Piece😜\Desktop\digitopia\sign in .htm" class="px-6 py-3 rounded-xl border border-white/20 text-lg font-semibold hover:bg-white/10 transition">🔑 Sign In</a>
+    </div>
+  </div>
+</section>
+
+<!-- Who We Are -->
+<section id="about" class="py-24">
+  <div class="mx-auto max-w-6xl text-center fade-up">
+    <h2 class="text-3xl font-bold mb-12">👥 Who We Are</h2>
+
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+      
+      <!-- Ahmed Sameh -->
+      <div class="glass shadow-pro rounded-2xl p-6 border border-white/10">
+        <img src="C:\Users\The One Piece😜\Desktop\digitopia\Ahmed sameh photo.jpg" alt="Ahmed Sameh" class="w-24 h-24 mx-auto rounded-full shadow-md">
+        <h3 class="mt-4 text-xl font-semibold">Ahmed Sameh</h3>
+        <a href="mailto:a7med.sameh.09@gmail.com" class="mt-2 block text-slate-300 hover:text-brand-light text-sm">
+          📧 a7med.sameh.09@gmail.com
+        </a>
+      </div>
+
+      <!-- Mohamed Elsamanty -->
+      <div class="glass shadow-pro rounded-2xl p-6 border border-white/10">
+        <img src="images/mohamed.jpg" alt="Mohamed Elsamanty" class="w-24 h-24 mx-auto rounded-full shadow-md">
+        <h3 class="mt-4 text-xl font-semibold">Mohamed Ahmed</h3>
+        <a href="mailto:mohamed14991567@gmail.com" class="mt-2 block text-slate-300 hover:text-brand-light text-sm">
+          📧 mohamed14991567@gmail.com
+        </a>
+      </div>
+
+      <!-- Mariam Osman -->
+      <div class="glass shadow-pro rounded-2xl p-6 border border-white/10">
+        <img src="images/mariam.jpg" alt="Mariam Osman" class="w-24 h-24 mx-auto rounded-full shadow-md">
+        <h3 class="mt-4 text-xl font-semibold">Mariam Osman</h3>
+        <a href="mailto:mariamtabina7@gmail.com" class="mt-2 block text-slate-300 hover:text-brand-light text-sm">
+          📧 mariamtabina7@gmail.com
+        </a>
+      </div>
+
+      <!-- Fatmah Ashraf -->
+      <div class="glass shadow-pro rounded-2xl p-6 border border-white/10">
+        <img src="images/fatmah.jpg" alt="Fatmah Ashraf" class="w-24 h-24 mx-auto rounded-full shadow-md">
+        <h3 class="mt-4 text-xl font-semibold">Fatmah Ashraf</h3>
+        <a href="mailto:fatimahashraf6@gmail.com" class="mt-2 block text-slate-300 hover:text-brand-light text-sm">
+          📧 fatimahashraf6@gmail.com
+        </a>
+      </div>
+
+      <!-- Mohamed Ahmed -->
+      <div class="glass shadow-pro rounded-2xl p-6 border border-white/10">
+        <img src="C:\Users\The One Piece😜\Desktop\digitopia\Mohamed Elsamanty photo.jpg" alt="Mohamed Ahmed" class="w-24 h-24 mx-auto rounded-full shadow-md">
+        <h3 class="mt-4 text-xl font-semibold">Mohamed Elsamanty</h3>
+        <a href="mailto:mahmoud.2924049@stemoctober2.moe.edu.eg" class="mt-2 block text-slate-300 hover:text-brand-light text-sm">
+          📧 mahmoud.2924049@stemoctober2.moe.edu.eg
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact & Support -->
+<section id="contact" class="py-24">
+  <div class="mx-auto max-w-3xl text-center fade-up glass shadow-pro rounded-2xl p-10 border border-white/10">
+    <h2 class="text-3xl font-bold">📞 Contact & Support</h2>
+    <p class="mt-4 text-slate-300">
+      For any questions, issues, or technical support, reach out to us via email.  
+      Our support team is here to help you 24/7.
+    </p>
+    <div class="mt-6">
+      <a href="mailto:havenox.smart.safety@gmail.com" 
+         class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-brand to-brand-dark text-white font-semibold shadow-pro hover:scale-105 transform transition">
+        ✉️ havenox.smart.safety@gmail.com
+      </a>
+    </div>
+  </div>
+</section>
+  
+</body>
+</html>
